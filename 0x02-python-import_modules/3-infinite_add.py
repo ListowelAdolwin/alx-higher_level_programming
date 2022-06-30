@@ -10,4 +10,3 @@ while (i < size_argv):
     i = i + 1
 
 print(sum_commands)
-
