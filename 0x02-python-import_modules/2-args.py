@@ -11,7 +11,7 @@ elif (size_argv == 2):
     print("1 argument:")
     print(f"1: {argv[i]}")
 else:
-    print(f"{size_argv - 1} arguments.")
+    print(f"{size_argv - 1} arguments:")
     while(i < size_argv):
         print(f"{i}: {argv[i]}")
         i = i + 1
