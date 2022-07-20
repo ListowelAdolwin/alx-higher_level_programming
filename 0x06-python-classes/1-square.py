@@ -15,5 +15,5 @@ class Square:
     With an instance variable, size
 
     """
-    def __init__(self, size):
-        self.size = size
+    def __init__(self, __size):
+        self.__size = __size
