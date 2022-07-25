@@ -6,6 +6,7 @@ A basic program with just a class
 
 """
 
+
 class Rectangle:
     """
     An empty class
