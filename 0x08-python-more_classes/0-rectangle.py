@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
 
-if __name__ == "__main__":
-    class Rectangle:
-        pass
+class Rectangle:
+    pass
