@@ -102,4 +102,4 @@ class Rectangle:
             rectangle += "#" * self.__width + "\n"
         rectangle += "#" * self.__width
 
-        return 
+        return ""
