@@ -1,2 +1,5 @@
 # 0x09. Python - Everything is object
-Contains 34 questions about python concepts
+**1 - 34**: Fill in questions about mutable and immutable objects and 
+        a little CPython
+
+**100 - 106**: Cpython codes and some part of lists
