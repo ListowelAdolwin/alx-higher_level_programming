@@ -4,6 +4,7 @@ A program with just one function
 
 """
 
+
 def lookup(obj):
     """
     A function that returns the available attributes
