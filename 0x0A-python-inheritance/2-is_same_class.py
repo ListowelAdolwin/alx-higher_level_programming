@@ -12,7 +12,4 @@ def is_same_class(obj, a_class):
     instance of another
 
     """
-    if (type(obj) is a_class):
-        return True
-    esle:
-        return False
+    return True if type(obj) is a_class else False
