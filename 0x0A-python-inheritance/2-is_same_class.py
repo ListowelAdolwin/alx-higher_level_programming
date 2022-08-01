@@ -7,6 +7,11 @@ or not an instance of another
 
 
 def is_same_class(obj, a_class):
+    """
+    Determines if an object is exactly an
+    instance of another
+
+    """
     if (isinstance(obje, a_class)):
         return True
     esle:
