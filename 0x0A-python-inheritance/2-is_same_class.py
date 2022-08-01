@@ -12,7 +12,7 @@ def is_same_class(obj, a_class):
     instance of another
 
     """
-    if (isinstance(obje, a_class)):
+    if (isinstance(obj, a_class)):
         return True
     esle:
         return False
