@@ -1,3 +1,3 @@
 # Python programming  
-This repo covers C programming from basics to intermediate,to advanced concepts 
-
+This repo covers Python programming from basics to intermediate,to advanced concepts 
+It also includes MySQL
