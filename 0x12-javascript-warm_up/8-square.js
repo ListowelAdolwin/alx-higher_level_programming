@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const x = parseInt(process.argv[2]);
 if (!(x)) {
-  console.log('Missing number of occurences');
+  console.log('Missing size');
 } else {
   let i = 0;
   while (i < x) {
