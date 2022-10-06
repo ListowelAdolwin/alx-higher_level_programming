@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-List all states from the database specified
+List all cities using their state names
 """
 
 
