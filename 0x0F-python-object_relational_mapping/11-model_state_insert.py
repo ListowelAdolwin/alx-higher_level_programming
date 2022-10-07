@@ -8,7 +8,7 @@ if __name__ == '__main__':
     from sqlalchemy import create_engine
     from sqlalchemy.orm import sessionmaker
     from model_state import State, Base
-    from sqlalchemy import table
+    from sqlalchemy import Table
 
     engine = create_engine('mysql+mysqldb://{}:{}@localhost/{}'
                            .format(sys.argv[1], sys.argv[2],
@@ -21,3 +21,4 @@ if __name__ == '__main__':
     newState = Session.query(State).filter(State.name == 'Louisiana').first()
     Session.commit
     print("{}".format(newState.id))
+    Session.close()
