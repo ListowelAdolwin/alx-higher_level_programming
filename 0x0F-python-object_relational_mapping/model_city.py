@@ -9,7 +9,6 @@ from sqlalchemy.orm import relationship
 from model_state import Base
 
 
-
 class City(Base):
     """
     City class
@@ -19,4 +18,3 @@ class City(Base):
                 autoincrement=True, nullable=False)
     name = Column(String(128), nullable=False)
     state_id = Column(Integer, ForeignKey('states.id'), nullable=False)
-    state = relationship('State', back_populates='cities')
