@@ -9,7 +9,7 @@ if __name__ == '__main__':
     import MySQLdb
 
     db = MySQLdb.connect(host='localhost', user=sys.argv[1],
-                         passwd=sys.argv[2], port=3307, db=sys.argv[3])
+                         passwd=sys.argv[2], port=3306, db=sys.argv[3])
     cur = db.cursor()
 
 
@@ -21,7 +21,6 @@ if __name__ == '__main__':
 
     states = cur.fetchall()
 
-    for row in states:
-        print(", ".join([row[0] for row in states]))
+    print(", ".join([row[0] for row in states]))
     cur.close()
     db.close()
