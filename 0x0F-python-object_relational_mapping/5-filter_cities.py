@@ -12,7 +12,6 @@ if __name__ == '__main__':
                          passwd=sys.argv[2], port=3306, db=sys.argv[3])
     cur = db.cursor()
 
-
     cur.execute("SELECT cities.name\
                 FROM cities LEFT JOIN states\
                 ON states.id = cities.state_id\
