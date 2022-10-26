@@ -15,4 +15,3 @@ if __name__ == "__main__":
         for com in r.json()[:10]:
             print("{}: {}".format(com.get('sha'),
                                   com.get('commit').get('author').get('name')))
-
